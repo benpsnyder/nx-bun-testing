@@ -8,7 +8,7 @@
     "benchmark:large": "bun benchmark.ts --scenario large",
     "benchmark:nested": "bun benchmark.ts --scenario nested",
     "benchmark": "bun benchmark:nested",
-    "test:docker": "docker build --target nx-bun-testing --file Dockerfile.packages --progress=plain -t nx-bun-testing:latest ."
+    "test:docker-basic-typescript": "docker build --target nx-bun-testing --file Dockerfile.packages --progress=plain -t nx-bun-testing:latest ."
   },
   "private": true,
   "dependencies": {
