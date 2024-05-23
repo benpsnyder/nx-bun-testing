@@ -3,6 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/nested-pkg1-2-1-1-1/src",
   "projectType": "library",
+  "tags": [],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
@@ -14,6 +15,5 @@
         "assets": ["packages/nested-pkg1-2-1-1-1/*.md"]
       }
     }
-  },
-  "tags": []
+  }
 }
