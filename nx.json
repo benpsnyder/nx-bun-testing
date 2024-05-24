@@ -22,8 +22,8 @@
     "sharedGlobals": []
   },
   "workspaceLayout": {
-    "appsDir": "packages",
-    "libsDir": "packages"
+    "appsDir": "apps",
+    "libsDir": "libs"
   },
   "useInferencePlugins": false,
   "nxCloudAccessToken": "NjNlMTA1ZTYtYmQ5ZS00OGQ0LTljZDYtMjIwYWFmYzcxNTZlfHJlYWQtd3JpdGU="

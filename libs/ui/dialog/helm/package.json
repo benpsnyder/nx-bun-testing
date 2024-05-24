@@ -1,0 +1,18 @@
+{
+	"name": "@spartan-ng/ui-dialog-helm",
+	"version": "0.0.1-alpha.10",
+	"peerDependencies": {
+		"@angular/core": "^18.0.0",
+		"@angular/common": "^18.0.0",
+		"@angular/cdk": "^18.0.0",
+		"@spartan-ng/ui-core": "0.0.1-alpha.348",
+		"clsx": "^1.2.1",
+		"@spartan-ng/ui-dialog-brain": "0.0.1-alpha.348",
+		"@ng-icons/lucide": "^26.3.0"
+	},
+	"dependencies": {},
+	"sideEffects": false,
+	"publishConfig": {
+		"access": "public"
+	}
+}

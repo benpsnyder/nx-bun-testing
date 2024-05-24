@@ -2,3 +2,10 @@
 /dist
 /coverage
 /.nx/cache
+
+.angular
+.prettierignore
+.vercel
+/tmp
+/node_modules
+/stats.html
