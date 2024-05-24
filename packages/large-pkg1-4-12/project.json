@@ -3,7 +3,7 @@
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
   "sourceRoot": "packages/large-pkg1-4-12/src",
   "projectType": "library",
-  "tags": [],
+  "tags": ["stack:large-ts-repo"],
   "targets": {
     "build": {
       "executor": "@nx/js:tsc",
