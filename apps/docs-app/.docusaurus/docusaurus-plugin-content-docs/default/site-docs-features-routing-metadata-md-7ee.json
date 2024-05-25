@@ -1,0 +1,24 @@
+{
+  "id": "features/routing/metadata",
+  "title": "Route Metadata",
+  "description": "Additional metadata to add to the generated route config for each route can be done using the RouteMeta type. This is where you can define the page title, any necessary guards, resolvers, providers, and more.",
+  "source": "@site/docs/features/routing/metadata.md",
+  "sourceDirName": "features/routing",
+  "slug": "/features/routing/metadata",
+  "permalink": "/docs/features/routing/metadata",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/routing/metadata.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Routing",
+    "permalink": "/docs/features/routing/overview"
+  },
+  "next": {
+    "title": "Content Routes",
+    "permalink": "/docs/features/routing/content"
+  }
+}

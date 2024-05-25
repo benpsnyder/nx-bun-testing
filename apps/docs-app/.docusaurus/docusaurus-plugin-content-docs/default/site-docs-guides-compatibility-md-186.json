@@ -1,0 +1,24 @@
+{
+  "id": "guides/compatibility",
+  "title": "Version Compatiblity",
+  "description": "Analog is compatible across multiple versions of Angular, Nx, and Vite.",
+  "source": "@site/docs/guides/compatibility.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/compatibility",
+  "permalink": "/docs/guides/compatibility",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/guides/compatibility.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Migrating an Angular app to Analog",
+    "permalink": "/docs/guides/migrating"
+  },
+  "next": {
+    "title": "Nx",
+    "permalink": "/docs/integrations/nx/"
+  }
+}

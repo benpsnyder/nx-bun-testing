@@ -1,0 +1,24 @@
+{
+  "id": "features/deployment/providers",
+  "title": "Providers",
+  "description": "Analog supports deployment to many providers with little or no additional configuration using Nitro as its underlying server engine. You can find more providers in the Nitro deployment docs.",
+  "source": "@site/docs/features/deployment/providers.md",
+  "sourceDirName": "features/deployment",
+  "slug": "/features/deployment/providers",
+  "permalink": "/docs/features/deployment/providers",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/deployment/providers.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Deployment",
+    "permalink": "/docs/features/deployment/overview"
+  },
+  "next": {
+    "title": "Running Tests",
+    "permalink": "/docs/features/testing/overview"
+  }
+}

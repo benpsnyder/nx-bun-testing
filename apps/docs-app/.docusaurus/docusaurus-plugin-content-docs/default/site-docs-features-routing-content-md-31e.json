@@ -1,0 +1,24 @@
+{
+  "id": "features/routing/content",
+  "title": "Content Routes",
+  "description": "Analog also supports using markdown content as routes, and rendering markdown content in components.",
+  "source": "@site/docs/features/routing/content.md",
+  "sourceDirName": "features/routing",
+  "slug": "/features/routing/content",
+  "permalink": "/docs/features/routing/content",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/routing/content.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Route Metadata",
+    "permalink": "/docs/features/routing/metadata"
+  },
+  "next": {
+    "title": "API Routes",
+    "permalink": "/docs/features/api/overview"
+  }
+}

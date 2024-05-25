@@ -1,0 +1,24 @@
+{
+  "id": "guides/migrating",
+  "title": "Migrating an Angular app to Analog",
+  "description": "An existing Angular Single Page Application can be configured to use Analog using a schematic/generator for Angular CLI or Nx workspaces.",
+  "source": "@site/docs/guides/migrating.md",
+  "sourceDirName": "guides",
+  "slug": "/guides/migrating",
+  "permalink": "/docs/guides/migrating",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/guides/migrating.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Updating to the latest version",
+    "permalink": "/docs/features/updating/overview"
+  },
+  "next": {
+    "title": "Version Compatiblity",
+    "permalink": "/docs/guides/compatibility"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "packages/create-analog/overview",
+  "title": "create-analog",
+  "description": "The create-analog package contains templates for scaffolding new Analog projects.",
+  "source": "@site/docs/packages/create-analog/overview.md",
+  "sourceDirName": "packages/create-analog",
+  "slug": "/packages/create-analog/overview",
+  "permalink": "/docs/packages/create-analog/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/packages/create-analog/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {}
+}

@@ -1,0 +1,27 @@
+{
+  "id": "integrations/ionic/index",
+  "title": "Ionic Framework Integration with Analog",
+  "description": "This tutorial guides you through the process of integrating Ionic Framework within your Analog application so you can leverage the power of Ionic's iOS and Android components in your applications.",
+  "source": "@site/docs/integrations/ionic/index.md",
+  "sourceDirName": "integrations/ionic",
+  "slug": "/integrations/ionic/",
+  "permalink": "/docs/integrations/ionic/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/integrations/ionic/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Angular Material Integration with Analog",
+    "permalink": "/docs/integrations/angular-material/"
+  },
+  "next": {
+    "title": "Analog SFCs",
+    "permalink": "/docs/experimental/sfc/"
+  }
+}

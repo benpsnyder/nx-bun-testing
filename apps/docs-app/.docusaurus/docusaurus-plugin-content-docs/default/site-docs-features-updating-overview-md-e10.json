@@ -1,0 +1,24 @@
+{
+  "id": "features/updating/overview",
+  "title": "Updating to the latest version",
+  "description": "You can use the ng update command for an Angular CLI workspace, or the nx migrate command for updating within an Nx workspace.",
+  "source": "@site/docs/features/updating/overview.md",
+  "sourceDirName": "features/updating",
+  "slug": "/features/updating/overview",
+  "permalink": "/docs/features/updating/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/updating/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Adding Vitest To An Existing Project",
+    "permalink": "/docs/features/testing/vitest"
+  },
+  "next": {
+    "title": "Migrating an Angular app to Analog",
+    "permalink": "/docs/guides/migrating"
+  }
+}

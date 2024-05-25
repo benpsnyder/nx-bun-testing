@@ -1,0 +1,57 @@
+{
+  "defaultLocale": "en",
+  "locales": [
+    "en",
+    "es",
+    "fr",
+    "pt-br",
+    "tr",
+    "ko"
+  ],
+  "path": "i18n",
+  "currentLocale": "en",
+  "localeConfigs": {
+    "en": {
+      "label": "English",
+      "direction": "ltr",
+      "htmlLang": "en",
+      "calendar": "gregory",
+      "path": "en"
+    },
+    "es": {
+      "label": "Español",
+      "direction": "ltr",
+      "htmlLang": "es",
+      "calendar": "gregory",
+      "path": "es"
+    },
+    "fr": {
+      "label": "Français",
+      "direction": "ltr",
+      "htmlLang": "fr",
+      "calendar": "gregory",
+      "path": "fr"
+    },
+    "pt-br": {
+      "label": "Português (Brasil)",
+      "direction": "ltr",
+      "htmlLang": "pt-BR",
+      "calendar": "gregory",
+      "path": "pt-br"
+    },
+    "tr": {
+      "label": "Türkçe",
+      "direction": "ltr",
+      "htmlLang": "tr",
+      "calendar": "gregory",
+      "path": "tr"
+    },
+    "ko": {
+      "label": "한국어",
+      "direction": "ltr",
+      "htmlLang": "ko",
+      "calendar": "gregory",
+      "path": "ko"
+    }
+  }
+}

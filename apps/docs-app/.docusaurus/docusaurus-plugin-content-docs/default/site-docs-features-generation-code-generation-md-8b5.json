@@ -1,0 +1,24 @@
+{
+  "id": "features/generation/code-generation",
+  "title": "Code Generation",
+  "description": "Analog supports automated code generation using Nx Generators and Angular Schematics.",
+  "source": "@site/docs/features/generation/code-generation.md",
+  "sourceDirName": "features/generation",
+  "slug": "/features/generation/code-generation",
+  "permalink": "/docs/features/generation/code-generation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/generation/code-generation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Server Side Rendering",
+    "permalink": "/docs/features/server/server-side-rendering"
+  },
+  "next": {
+    "title": "Deployment",
+    "permalink": "/docs/features/deployment/overview"
+  }
+}

@@ -1,5 +1,5 @@
 {
-	"name": "trpc",
+	"name": "spartan-trpc",
 	"$schema": "../../node_modules/nx/schemas/project-schema.json",
 	"sourceRoot": "libs/trpc/src",
 	"prefix": "spartan-ng",

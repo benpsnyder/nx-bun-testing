@@ -1,0 +1,28 @@
+{
+  "id": "contributing",
+  "title": "Contributing",
+  "description": "",
+  "source": "@site/docs/contributing.md",
+  "sourceDirName": ".",
+  "slug": "/contributing",
+  "permalink": "/docs/contributing",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/contributing.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "title": "Contributing"
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Contributors",
+    "permalink": "/docs/contributors"
+  },
+  "next": {
+    "title": "Sponsor",
+    "permalink": "/docs/sponsoring"
+  }
+}

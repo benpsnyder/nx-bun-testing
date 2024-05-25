@@ -1,0 +1,170 @@
+{
+  "docusaurus-plugin-content-docs": {
+    "default": {
+      "path": "/docs",
+      "versions": [
+        {
+          "name": "current",
+          "label": "Next",
+          "isLast": true,
+          "path": "/docs",
+          "mainDocId": "introduction",
+          "docs": [
+            {
+              "id": "contributing",
+              "path": "/docs/contributing",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "contributors",
+              "path": "/docs/contributors",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "experimental/sfc/index",
+              "path": "/docs/experimental/sfc/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/api/overview",
+              "path": "/docs/features/api/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/data-fetching/server-side-data-fetching",
+              "path": "/docs/features/data-fetching/server-side-data-fetching",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/deployment/overview",
+              "path": "/docs/features/deployment/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/deployment/providers",
+              "path": "/docs/features/deployment/providers",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/generation/code-generation",
+              "path": "/docs/features/generation/code-generation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/routing/content",
+              "path": "/docs/features/routing/content",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/routing/metadata",
+              "path": "/docs/features/routing/metadata",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/routing/overview",
+              "path": "/docs/features/routing/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/server/server-side-rendering",
+              "path": "/docs/features/server/server-side-rendering",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/server/static-site-generation",
+              "path": "/docs/features/server/static-site-generation",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/testing/overview",
+              "path": "/docs/features/testing/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/testing/vitest",
+              "path": "/docs/features/testing/vitest",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "features/updating/overview",
+              "path": "/docs/features/updating/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "getting-started",
+              "path": "/docs/getting-started",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "guides/compatibility",
+              "path": "/docs/guides/compatibility",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "guides/migrating",
+              "path": "/docs/guides/migrating",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "integrations/angular-material/index",
+              "path": "/docs/integrations/angular-material/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "integrations/ionic/index",
+              "path": "/docs/integrations/ionic/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "integrations/nx/index",
+              "path": "/docs/integrations/nx/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "introduction",
+              "path": "/docs/",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "packages/astro-angular/overview",
+              "path": "/docs/packages/astro-angular/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "packages/create-analog/overview",
+              "path": "/docs/packages/create-analog/overview"
+            },
+            {
+              "id": "packages/router/overview",
+              "path": "/docs/packages/router/overview"
+            },
+            {
+              "id": "packages/vite-plugin-angular/css-preprocessors",
+              "path": "/docs/packages/vite-plugin-angular/css-preprocessors"
+            },
+            {
+              "id": "packages/vite-plugin-angular/overview",
+              "path": "/docs/packages/vite-plugin-angular/overview",
+              "sidebar": "docsSidebar"
+            },
+            {
+              "id": "sponsoring",
+              "path": "/docs/sponsoring",
+              "sidebar": "docsSidebar"
+            }
+          ],
+          "draftIds": [],
+          "sidebars": {
+            "docsSidebar": {
+              "link": {
+                "path": "/docs/",
+                "label": "Introduction"
+              }
+            }
+          }
+        }
+      ],
+      "breadcrumbs": true
+    }
+  }
+}

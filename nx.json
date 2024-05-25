@@ -1,30 +1,41 @@
 {
-	"$schema": "./node_modules/nx/schemas/nx-schema.json",
-	"targetDefaults": {
-		"build": {
-			"dependsOn": ["^build"],
-			"inputs": ["production", "^production"],
-			"cache": true
-		},
-		"lint": {
-			"cache": true
-		},
-		"test": {
-			"cache": true
-		},
-		"e2e": {
-			"cache": true
-		}
-	},
-	"namedInputs": {
-		"default": ["{projectRoot}/**/*", "sharedGlobals"],
-		"production": ["default"],
-		"sharedGlobals": []
-	},
-	"workspaceLayout": {
-		"appsDir": "apps",
-		"libsDir": "libs"
-	},
-	"useInferencePlugins": false,
-	"nxCloudAccessToken": "NjNlMTA1ZTYtYmQ5ZS00OGQ0LTljZDYtMjIwYWFmYzcxNTZlfHJlYWQtd3JpdGU="
+  "$schema": "./node_modules/nx/schemas/nx-schema.json",
+	"parallel": 12,
+  "targetDefaults": {
+    "build": {
+      "dependsOn": [
+        "^build"
+      ],
+      "inputs": [
+        "production",
+        "^production"
+      ],
+      "cache": true
+    },
+    "lint": {
+      "cache": true
+    },
+    "test": {
+      "cache": true
+    },
+    "e2e": {
+      "cache": true
+    }
+  },
+  "namedInputs": {
+    "default": [
+      "{projectRoot}/**/*",
+      "sharedGlobals"
+    ],
+    "production": [
+      "default"
+    ],
+    "sharedGlobals": []
+  },
+  "workspaceLayout": {
+    "appsDir": "apps",
+    "libsDir": "libs"
+  },
+  "useInferencePlugins": false,
+  "nxCloudAccessToken": "ZWQ0MDU2MzYtNzM4ZS00OWRiLWFmNTctN2I1OTNmMmU4ODEwfHJlYWQtd3JpdGU="
 }

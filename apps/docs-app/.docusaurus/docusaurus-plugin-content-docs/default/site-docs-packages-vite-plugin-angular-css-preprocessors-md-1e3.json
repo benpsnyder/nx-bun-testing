@@ -1,0 +1,17 @@
+{
+  "id": "packages/vite-plugin-angular/css-preprocessors",
+  "title": "Using CSS Pre-processors",
+  "description": "The Vite Plugin supports CSS pre-processing using external styleUrls and inline styles in the Component decorator metadata.",
+  "source": "@site/docs/packages/vite-plugin-angular/css-preprocessors.md",
+  "sourceDirName": "packages/vite-plugin-angular",
+  "slug": "/packages/vite-plugin-angular/css-preprocessors",
+  "permalink": "/docs/packages/vite-plugin-angular/css-preprocessors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/packages/vite-plugin-angular/css-preprocessors.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "Using CSS Pre-processors"
+  }
+}
