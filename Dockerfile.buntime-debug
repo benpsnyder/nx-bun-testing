@@ -34,6 +34,8 @@ ENV NX_DAEMON=true
 ENV NX_SKIP_NX_CACHE=true
 RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --skip-nx-cache --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
+RUN bunx nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12 --skip-nx-cache --verbose || \
+	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
 RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
 
@@ -42,6 +44,8 @@ FROM install-dev--with-lockb AS build--with-lockb--cache
 ENV NX_DAEMON=true
 ENV NX_SKIP_NX_CACHE=false
 RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --verbose || \
+	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
+RUN bunx nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12 --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
 RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
@@ -52,6 +56,8 @@ ENV NX_DAEMON=true
 ENV NX_SKIP_NX_CACHE=true
 RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --skip-nx-cache --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
+RUN bunx nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12 --skip-nx-cache --verbose || \
+	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
 RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
 
@@ -59,6 +65,8 @@ FROM install-dev--with-yarn AS build--with-yarn--cache
 ENV NX_DAEMON=true
 ENV NX_SKIP_NX_CACHE=false
 RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --verbose || \
+	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
+RUN bunx nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12 --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)
 RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --verbose || \
 	(echo "Build failed. Outputting log:" && cat /usr/src/app/.nx/cache/d/daemon.log && exit 1)

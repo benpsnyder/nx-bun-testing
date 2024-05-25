@@ -1,0 +1,27 @@
+{
+  "id": "integrations/angular-material/index",
+  "title": "Angular Material Integration with Analog",
+  "description": "This tutorial will guide you through the process of integrating the Angular Material library within your Analog application.",
+  "source": "@site/docs/integrations/angular-material/index.md",
+  "sourceDirName": "integrations/angular-material",
+  "slug": "/integrations/angular-material/",
+  "permalink": "/docs/integrations/angular-material/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/integrations/angular-material/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "",
+    "permalink": "/docs/packages/vite-plugin-angular/overview"
+  },
+  "next": {
+    "title": "Ionic Framework Integration with Analog",
+    "permalink": "/docs/integrations/ionic/"
+  }
+}

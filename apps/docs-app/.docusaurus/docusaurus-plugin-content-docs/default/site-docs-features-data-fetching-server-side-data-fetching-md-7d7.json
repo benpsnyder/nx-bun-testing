@@ -1,0 +1,24 @@
+{
+  "id": "features/data-fetching/server-side-data-fetching",
+  "title": "Server-Side Data Fetching",
+  "description": "Analog supports fetching data from the server before loading a page. This can be achieved by defining an async load function in .server.ts file of the page.",
+  "source": "@site/docs/features/data-fetching/server-side-data-fetching.md",
+  "sourceDirName": "features/data-fetching",
+  "slug": "/features/data-fetching/server-side-data-fetching",
+  "permalink": "/docs/features/data-fetching/server-side-data-fetching",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/data-fetching/server-side-data-fetching.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "API Routes",
+    "permalink": "/docs/features/api/overview"
+  },
+  "next": {
+    "title": "Building Static Sites",
+    "permalink": "/docs/features/server/static-site-generation"
+  }
+}

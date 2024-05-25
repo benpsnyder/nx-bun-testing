@@ -1,0 +1,24 @@
+{
+  "id": "features/server/server-side-rendering",
+  "title": "Server Side Rendering",
+  "description": "Analog supports server-side rendering during development and building for production.",
+  "source": "@site/docs/features/server/server-side-rendering.md",
+  "sourceDirName": "features/server",
+  "slug": "/features/server/server-side-rendering",
+  "permalink": "/docs/features/server/server-side-rendering",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/server/server-side-rendering.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Building Static Sites",
+    "permalink": "/docs/features/server/static-site-generation"
+  },
+  "next": {
+    "title": "Code Generation",
+    "permalink": "/docs/features/generation/code-generation"
+  }
+}

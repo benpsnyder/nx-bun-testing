@@ -1,0 +1,144 @@
+{
+  "/search-f5d": {
+    "__comp": "1a4e3797",
+    "__context": {
+      "plugin": "f583a8e6"
+    }
+  },
+  "/docs-af9": {
+    "__comp": "5e95c892",
+    "__context": {
+      "plugin": "6ce1bd84"
+    }
+  },
+  "/docs-f6c": {
+    "__comp": "a7bd4aaa",
+    "version": "935f2afb"
+  },
+  "/docs-112": {
+    "__comp": "a94703ab"
+  },
+  "/docs-c54": {
+    "__comp": "17896441",
+    "content": "a09c2993"
+  },
+  "/docs/contributing-d49": {
+    "__comp": "17896441",
+    "content": "4d54d076"
+  },
+  "/docs/contributors-ce6": {
+    "__comp": "17896441",
+    "content": "5141c73a"
+  },
+  "/docs/experimental/sfc-a70": {
+    "__comp": "17896441",
+    "content": "45b46dd1"
+  },
+  "/docs/features/api/overview-611": {
+    "__comp": "17896441",
+    "content": "e17d59c2"
+  },
+  "/docs/features/data-fetching/server-side-data-fetching-124": {
+    "__comp": "17896441",
+    "content": "7d7dc28a"
+  },
+  "/docs/features/deployment/overview-290": {
+    "__comp": "17896441",
+    "content": "cf6b85b0"
+  },
+  "/docs/features/deployment/providers-1b7": {
+    "__comp": "17896441",
+    "content": "f0c90dbc"
+  },
+  "/docs/features/generation/code-generation-359": {
+    "__comp": "17896441",
+    "content": "8b5e82b6"
+  },
+  "/docs/features/routing/content-a7b": {
+    "__comp": "17896441",
+    "content": "31e9d94b"
+  },
+  "/docs/features/routing/metadata-bcc": {
+    "__comp": "17896441",
+    "content": "7eeeeb8a"
+  },
+  "/docs/features/routing/overview-e31": {
+    "__comp": "17896441",
+    "content": "60463166"
+  },
+  "/docs/features/server/server-side-rendering-41e": {
+    "__comp": "17896441",
+    "content": "48f959a6"
+  },
+  "/docs/features/server/static-site-generation-ce7": {
+    "__comp": "17896441",
+    "content": "25e549d2"
+  },
+  "/docs/features/testing/overview-a66": {
+    "__comp": "17896441",
+    "content": "a5031f33"
+  },
+  "/docs/features/testing/vitest-383": {
+    "__comp": "17896441",
+    "content": "2c7deba5"
+  },
+  "/docs/features/updating/overview-3c8": {
+    "__comp": "17896441",
+    "content": "e103e74b"
+  },
+  "/docs/getting-started-575": {
+    "__comp": "17896441",
+    "content": "d589d3a7"
+  },
+  "/docs/guides/compatibility-996": {
+    "__comp": "17896441",
+    "content": "18695a72"
+  },
+  "/docs/guides/migrating-138": {
+    "__comp": "17896441",
+    "content": "8bf5d314"
+  },
+  "/docs/integrations/angular-material-b94": {
+    "__comp": "17896441",
+    "content": "de45096f"
+  },
+  "/docs/integrations/ionic-1aa": {
+    "__comp": "17896441",
+    "content": "b75059ae"
+  },
+  "/docs/integrations/nx-4da": {
+    "__comp": "17896441",
+    "content": "651e00ad"
+  },
+  "/docs/packages/astro-angular/overview-c09": {
+    "__comp": "17896441",
+    "content": "4ccb8843"
+  },
+  "/docs/packages/create-analog/overview-816": {
+    "__comp": "17896441",
+    "content": "3a22c66b"
+  },
+  "/docs/packages/router/overview-741": {
+    "__comp": "17896441",
+    "content": "626a7560"
+  },
+  "/docs/packages/vite-plugin-angular/css-preprocessors-eb1": {
+    "__comp": "17896441",
+    "content": "1e30a860"
+  },
+  "/docs/packages/vite-plugin-angular/overview-54d": {
+    "__comp": "17896441",
+    "content": "07258f19"
+  },
+  "/docs/sponsoring-142": {
+    "__comp": "17896441",
+    "content": "7a810baa"
+  },
+  "/-7cc": {
+    "__comp": "1df93b7f",
+    "__context": {
+      "plugin": "b501e5f2"
+    },
+    "config": "5e9f5e1a"
+  }
+}

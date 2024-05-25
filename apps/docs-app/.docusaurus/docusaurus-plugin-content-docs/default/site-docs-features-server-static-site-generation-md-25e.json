@@ -1,0 +1,24 @@
+{
+  "id": "features/server/static-site-generation",
+  "title": "Building Static Sites",
+  "description": "Analog supports Static Site Generation when building for deployment. This includes prerendering provided routes to static HTML files along with the client-side application.",
+  "source": "@site/docs/features/server/static-site-generation.md",
+  "sourceDirName": "features/server",
+  "slug": "/features/server/static-site-generation",
+  "permalink": "/docs/features/server/static-site-generation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/server/static-site-generation.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Server-Side Data Fetching",
+    "permalink": "/docs/features/data-fetching/server-side-data-fetching"
+  },
+  "next": {
+    "title": "Server Side Rendering",
+    "permalink": "/docs/features/server/server-side-rendering"
+  }
+}

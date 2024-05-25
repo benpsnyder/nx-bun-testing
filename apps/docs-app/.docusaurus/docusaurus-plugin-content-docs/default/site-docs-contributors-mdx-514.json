@@ -1,0 +1,27 @@
+{
+  "id": "contributors",
+  "title": "Contributors",
+  "description": "Analog core team",
+  "source": "@site/docs/contributors.mdx",
+  "sourceDirName": ".",
+  "slug": "/contributors",
+  "permalink": "/docs/contributors",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/contributors.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Analog SFCs",
+    "permalink": "/docs/experimental/sfc/"
+  },
+  "next": {
+    "title": "Contributing",
+    "permalink": "/docs/contributing"
+  }
+}

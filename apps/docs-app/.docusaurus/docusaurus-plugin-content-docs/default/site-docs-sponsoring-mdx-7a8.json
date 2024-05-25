@@ -1,0 +1,23 @@
+{
+  "id": "sponsoring",
+  "title": "Sponsor",
+  "description": "Analog is an MIT-licensed open-source project and completely free to use. The continual effort needed to maintain this project is supported by the financial backing of our sponsors.",
+  "source": "@site/docs/sponsoring.mdx",
+  "sourceDirName": ".",
+  "slug": "/sponsoring",
+  "permalink": "/docs/sponsoring",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/sponsoring.mdx",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "sidebar_position": 5
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Contributing",
+    "permalink": "/docs/contributing"
+  }
+}

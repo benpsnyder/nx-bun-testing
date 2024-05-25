@@ -1,0 +1,17 @@
+{
+  "id": "packages/router/overview",
+  "title": "",
+  "description": "",
+  "source": "@site/docs/packages/router/overview.md",
+  "sourceDirName": "packages/router",
+  "slug": "/packages/router/overview",
+  "permalink": "/docs/packages/router/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/packages/router/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": ""
+  }
+}

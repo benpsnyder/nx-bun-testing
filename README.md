@@ -2,7 +2,7 @@
 - This repo is a clone of https://github.com/nrwl/large-ts-monorepo
 - And also includes a copy of code from https://github.com/goetzrobin/spartan
 
-Our goal debug compatability issues with [Bun](https://bun.sh/) and [Nx](https://nx.dev/)
+Our goal is to debug compatability issues with [Bun](https://bun.sh/) and [Nx](https://nx.dev/)
 
 ## Building on Docker
 - ✅ `bun build:docker:bun-on-node`
@@ -17,12 +17,17 @@ Our goal debug compatability issues with [Bun](https://bun.sh/) and [Nx](https:/
 ✅: `bunx --bun nx run-many --target=build --projects=tag:stack:large-ts-monorepo --configuration=production --parallel=12` -- with cache, buntime <br>
 ✅: `bunx --bun nx run-many --target=build --projects=tag:stack:large-ts-monorepo --configuration=production --parallel=12 --skip-nx-cache` -- without cache, buntime
 
-### build [spartan](https://github.com/goetzrobin/spartan), with [analogjs](https://github.com/analogjs/analog) <br>
+### build [spartan](https://github.com/goetzrobin/spartan) (uses [analogjs](https://github.com/analogjs/analog)) <br>
 ✅: `bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12` -- with cache <br>
 ✅: `bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache` -- without cache <br>
 ✅: `bunx --bun nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12` -- with cache, buntime <br>
 ✅: `bunx --bun nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache` -- without cache, buntime
 
+### build apps from the [analogjs](https://github.com/analogjs/analog) repo by [Brandon Roberts](https://github.com/sponsors/brandonroberts)<br>
+✅: `bunx nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12` -- with cache <br>
+✅: `bunx nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12 --skip-nx-cache` -- without cache <br>
+✅: `bunx --bun nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12` -- with cache, buntime <br>
+✅: `bunx --bun nx run-many --target=build --projects=tag:stack:analog-repo --configuration=production --parallel=12 --skip-nx-cache` -- without cache, buntime
 
 ## References
 

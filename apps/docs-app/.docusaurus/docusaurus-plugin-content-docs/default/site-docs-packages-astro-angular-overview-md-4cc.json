@@ -1,0 +1,26 @@
+{
+  "id": "packages/astro-angular/overview",
+  "title": "",
+  "description": "",
+  "source": "@site/docs/packages/astro-angular/overview.md",
+  "sourceDirName": "packages/astro-angular",
+  "slug": "/packages/astro-angular/overview",
+  "permalink": "/docs/packages/astro-angular/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/packages/astro-angular/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": ""
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Nx",
+    "permalink": "/docs/integrations/nx/"
+  },
+  "next": {
+    "title": "",
+    "permalink": "/docs/packages/vite-plugin-angular/overview"
+  }
+}

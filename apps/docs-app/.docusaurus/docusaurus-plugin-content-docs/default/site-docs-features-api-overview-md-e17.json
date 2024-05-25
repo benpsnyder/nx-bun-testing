@@ -1,0 +1,24 @@
+{
+  "id": "features/api/overview",
+  "title": "API Routes",
+  "description": "Analog supports defining API routes that can be used to serve data to the application.",
+  "source": "@site/docs/features/api/overview.md",
+  "sourceDirName": "features/api",
+  "slug": "/features/api/overview",
+  "permalink": "/docs/features/api/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/api/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Content Routes",
+    "permalink": "/docs/features/routing/content"
+  },
+  "next": {
+    "title": "Server-Side Data Fetching",
+    "permalink": "/docs/features/data-fetching/server-side-data-fetching"
+  }
+}

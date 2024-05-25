@@ -1,0 +1,27 @@
+{
+  "id": "integrations/nx/index",
+  "title": "Nx",
+  "description": "Overview",
+  "source": "@site/docs/integrations/nx/index.md",
+  "sourceDirName": "integrations/nx",
+  "slug": "/integrations/nx/",
+  "permalink": "/docs/integrations/nx/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/integrations/nx/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Version Compatiblity",
+    "permalink": "/docs/guides/compatibility"
+  },
+  "next": {
+    "title": "",
+    "permalink": "/docs/packages/astro-angular/overview"
+  }
+}

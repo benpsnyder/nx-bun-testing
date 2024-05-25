@@ -1,0 +1,473 @@
+{
+  "pluginId": "default",
+  "version": "current",
+  "label": "Next",
+  "banner": null,
+  "badge": false,
+  "noIndex": false,
+  "className": "docs-version-current",
+  "isLast": true,
+  "docsSidebars": {
+    "docsSidebar": [
+      {
+        "type": "link",
+        "label": "Introduction",
+        "href": "/docs/",
+        "docId": "introduction",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Getting Started",
+        "href": "/docs/getting-started",
+        "docId": "getting-started",
+        "unlisted": false
+      },
+      {
+        "type": "category",
+        "label": "Core Concepts",
+        "items": [
+          {
+            "type": "category",
+            "label": "Routing",
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/features/routing/overview",
+                "docId": "features/routing/overview",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Route Metadata",
+                "href": "/docs/features/routing/metadata",
+                "docId": "features/routing/metadata",
+                "unlisted": false
+              },
+              {
+                "type": "link",
+                "label": "Content Routes",
+                "href": "/docs/features/routing/content",
+                "docId": "features/routing/content",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "API Routes",
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/features/api/overview",
+                "docId": "features/api/overview",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Data Fetching",
+            "items": [
+              {
+                "type": "link",
+                "label": "Server-Side Data Fetching",
+                "href": "/docs/features/data-fetching/server-side-data-fetching",
+                "docId": "features/data-fetching/server-side-data-fetching",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Static Site Generation",
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/features/server/static-site-generation",
+                "docId": "features/server/static-site-generation",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Server Side Rendering",
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/features/server/server-side-rendering",
+                "docId": "features/server/server-side-rendering",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          },
+          {
+            "type": "category",
+            "label": "Code Generation",
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/features/generation/code-generation",
+                "docId": "features/generation/code-generation",
+                "unlisted": false
+              }
+            ],
+            "collapsed": true,
+            "collapsible": true
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Deployment",
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/features/deployment/overview",
+            "docId": "features/deployment/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Providers",
+            "href": "/docs/features/deployment/providers",
+            "docId": "features/deployment/providers",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Testing",
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/features/testing/overview",
+            "docId": "features/testing/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Adding Vitest",
+            "href": "/docs/features/testing/vitest",
+            "docId": "features/testing/vitest",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Updating",
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/features/updating/overview",
+            "docId": "features/updating/overview",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Guides",
+        "items": [
+          {
+            "type": "link",
+            "label": "Migrating an Angular app to Analog",
+            "href": "/docs/guides/migrating",
+            "docId": "guides/migrating",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Version Compatibilty",
+            "href": "/docs/guides/compatibility",
+            "docId": "guides/compatibility",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Integrations",
+        "items": [
+          {
+            "type": "link",
+            "label": "Nx",
+            "href": "/docs/integrations/nx/",
+            "docId": "integrations/nx/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Astro",
+            "href": "/docs/packages/astro-angular/overview",
+            "docId": "packages/astro-angular/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Vite",
+            "href": "/docs/packages/vite-plugin-angular/overview",
+            "docId": "packages/vite-plugin-angular/overview",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Angular Material",
+            "href": "/docs/integrations/angular-material/",
+            "docId": "integrations/angular-material/index",
+            "unlisted": false
+          },
+          {
+            "type": "link",
+            "label": "Ionic Framework",
+            "href": "/docs/integrations/ionic/",
+            "docId": "integrations/ionic/index",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "category",
+        "label": "Experimental",
+        "items": [
+          {
+            "type": "link",
+            "label": "Analog SFCs",
+            "href": "/docs/experimental/sfc/",
+            "docId": "experimental/sfc/index",
+            "unlisted": false
+          }
+        ],
+        "collapsed": true,
+        "collapsible": true
+      },
+      {
+        "type": "link",
+        "label": "Contributors",
+        "href": "/docs/contributors",
+        "docId": "contributors",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Contributing",
+        "href": "/docs/contributing",
+        "docId": "contributing",
+        "unlisted": false
+      },
+      {
+        "type": "link",
+        "label": "Sponsoring",
+        "href": "/docs/sponsoring",
+        "docId": "sponsoring",
+        "unlisted": false
+      }
+    ]
+  },
+  "docs": {
+    "contributing": {
+      "id": "contributing",
+      "title": "Contributing",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "contributors": {
+      "id": "contributors",
+      "title": "Contributors",
+      "description": "Analog core team",
+      "sidebar": "docsSidebar"
+    },
+    "experimental/sfc/index": {
+      "id": "experimental/sfc/index",
+      "title": "Analog SFCs",
+      "description": "Note:",
+      "sidebar": "docsSidebar"
+    },
+    "features/api/overview": {
+      "id": "features/api/overview",
+      "title": "API Routes",
+      "description": "Analog supports defining API routes that can be used to serve data to the application.",
+      "sidebar": "docsSidebar"
+    },
+    "features/data-fetching/server-side-data-fetching": {
+      "id": "features/data-fetching/server-side-data-fetching",
+      "title": "Server-Side Data Fetching",
+      "description": "Analog supports fetching data from the server before loading a page. This can be achieved by defining an async load function in .server.ts file of the page.",
+      "sidebar": "docsSidebar"
+    },
+    "features/deployment/overview": {
+      "id": "features/deployment/overview",
+      "title": "Deployment",
+      "description": "Node.js deployment is the default Analog output preset for production builds.",
+      "sidebar": "docsSidebar"
+    },
+    "features/deployment/providers": {
+      "id": "features/deployment/providers",
+      "title": "Providers",
+      "description": "Analog supports deployment to many providers with little or no additional configuration using Nitro as its underlying server engine. You can find more providers in the Nitro deployment docs.",
+      "sidebar": "docsSidebar"
+    },
+    "features/generation/code-generation": {
+      "id": "features/generation/code-generation",
+      "title": "Code Generation",
+      "description": "Analog supports automated code generation using Nx Generators and Angular Schematics.",
+      "sidebar": "docsSidebar"
+    },
+    "features/routing/content": {
+      "id": "features/routing/content",
+      "title": "Content Routes",
+      "description": "Analog also supports using markdown content as routes, and rendering markdown content in components.",
+      "sidebar": "docsSidebar"
+    },
+    "features/routing/metadata": {
+      "id": "features/routing/metadata",
+      "title": "Route Metadata",
+      "description": "Additional metadata to add to the generated route config for each route can be done using the RouteMeta type. This is where you can define the page title, any necessary guards, resolvers, providers, and more.",
+      "sidebar": "docsSidebar"
+    },
+    "features/routing/overview": {
+      "id": "features/routing/overview",
+      "title": "Routing",
+      "description": "Analog supports filesystem-based routing on top of the Angular Router.",
+      "sidebar": "docsSidebar"
+    },
+    "features/server/server-side-rendering": {
+      "id": "features/server/server-side-rendering",
+      "title": "Server Side Rendering",
+      "description": "Analog supports server-side rendering during development and building for production.",
+      "sidebar": "docsSidebar"
+    },
+    "features/server/static-site-generation": {
+      "id": "features/server/static-site-generation",
+      "title": "Building Static Sites",
+      "description": "Analog supports Static Site Generation when building for deployment. This includes prerendering provided routes to static HTML files along with the client-side application.",
+      "sidebar": "docsSidebar"
+    },
+    "features/testing/overview": {
+      "id": "features/testing/overview",
+      "title": "Running Tests",
+      "description": "Analog supports Vitest for running unit tests.",
+      "sidebar": "docsSidebar"
+    },
+    "features/testing/vitest": {
+      "id": "features/testing/vitest",
+      "title": "Adding Vitest To An Existing Project",
+      "description": "Vitest can be added to existing Angular workspaces with a few steps.",
+      "sidebar": "docsSidebar"
+    },
+    "features/updating/overview": {
+      "id": "features/updating/overview",
+      "title": "Updating to the latest version",
+      "description": "You can use the ng update command for an Angular CLI workspace, or the nx migrate command for updating within an Nx workspace.",
+      "sidebar": "docsSidebar"
+    },
+    "getting-started": {
+      "id": "getting-started",
+      "title": "Getting Started",
+      "description": "System Requirements",
+      "sidebar": "docsSidebar"
+    },
+    "guides/compatibility": {
+      "id": "guides/compatibility",
+      "title": "Version Compatiblity",
+      "description": "Analog is compatible across multiple versions of Angular, Nx, and Vite.",
+      "sidebar": "docsSidebar"
+    },
+    "guides/migrating": {
+      "id": "guides/migrating",
+      "title": "Migrating an Angular app to Analog",
+      "description": "An existing Angular Single Page Application can be configured to use Analog using a schematic/generator for Angular CLI or Nx workspaces.",
+      "sidebar": "docsSidebar"
+    },
+    "integrations/angular-material/index": {
+      "id": "integrations/angular-material/index",
+      "title": "Angular Material Integration with Analog",
+      "description": "This tutorial will guide you through the process of integrating the Angular Material library within your Analog application.",
+      "sidebar": "docsSidebar"
+    },
+    "integrations/ionic/index": {
+      "id": "integrations/ionic/index",
+      "title": "Ionic Framework Integration with Analog",
+      "description": "This tutorial guides you through the process of integrating Ionic Framework within your Analog application so you can leverage the power of Ionic's iOS and Android components in your applications.",
+      "sidebar": "docsSidebar"
+    },
+    "integrations/nx/index": {
+      "id": "integrations/nx/index",
+      "title": "Nx",
+      "description": "Overview",
+      "sidebar": "docsSidebar"
+    },
+    "introduction": {
+      "id": "introduction",
+      "title": "Introduction",
+      "description": "Analog is a fullstack meta-framework for building applications and websites with Angular.",
+      "sidebar": "docsSidebar"
+    },
+    "packages/astro-angular/overview": {
+      "id": "packages/astro-angular/overview",
+      "title": "",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "packages/create-analog/overview": {
+      "id": "packages/create-analog/overview",
+      "title": "create-analog",
+      "description": "The create-analog package contains templates for scaffolding new Analog projects."
+    },
+    "packages/router/overview": {
+      "id": "packages/router/overview",
+      "title": "",
+      "description": ""
+    },
+    "packages/vite-plugin-angular/css-preprocessors": {
+      "id": "packages/vite-plugin-angular/css-preprocessors",
+      "title": "Using CSS Pre-processors",
+      "description": "The Vite Plugin supports CSS pre-processing using external styleUrls and inline styles in the Component decorator metadata."
+    },
+    "packages/vite-plugin-angular/overview": {
+      "id": "packages/vite-plugin-angular/overview",
+      "title": "",
+      "description": "",
+      "sidebar": "docsSidebar"
+    },
+    "sponsoring": {
+      "id": "sponsoring",
+      "title": "Sponsor",
+      "description": "Analog is an MIT-licensed open-source project and completely free to use. The continual effort needed to maintain this project is supported by the financial backing of our sponsors.",
+      "sidebar": "docsSidebar"
+    }
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "id": "features/deployment/overview",
+  "title": "Deployment",
+  "description": "Node.js deployment is the default Analog output preset for production builds.",
+  "source": "@site/docs/features/deployment/overview.md",
+  "sourceDirName": "features/deployment",
+  "slug": "/features/deployment/overview",
+  "permalink": "/docs/features/deployment/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/deployment/overview.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Code Generation",
+    "permalink": "/docs/features/generation/code-generation"
+  },
+  "next": {
+    "title": "Providers",
+    "permalink": "/docs/features/deployment/providers"
+  }
+}

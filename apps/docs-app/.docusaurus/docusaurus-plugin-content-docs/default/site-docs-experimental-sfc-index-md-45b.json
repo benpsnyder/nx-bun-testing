@@ -1,0 +1,27 @@
+{
+  "id": "experimental/sfc/index",
+  "title": "Analog SFCs",
+  "description": "Note:",
+  "source": "@site/docs/experimental/sfc/index.md",
+  "sourceDirName": "experimental/sfc",
+  "slug": "/experimental/sfc/",
+  "permalink": "/docs/experimental/sfc/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/experimental/sfc/index.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1
+  },
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Ionic Framework Integration with Analog",
+    "permalink": "/docs/integrations/ionic/"
+  },
+  "next": {
+    "title": "Contributors",
+    "permalink": "/docs/contributors"
+  }
+}

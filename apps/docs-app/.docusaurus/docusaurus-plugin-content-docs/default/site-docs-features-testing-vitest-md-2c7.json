@@ -1,0 +1,24 @@
+{
+  "id": "features/testing/vitest",
+  "title": "Adding Vitest To An Existing Project",
+  "description": "Vitest can be added to existing Angular workspaces with a few steps.",
+  "source": "@site/docs/features/testing/vitest.md",
+  "sourceDirName": "features/testing",
+  "slug": "/features/testing/vitest",
+  "permalink": "/docs/features/testing/vitest",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/analogjs/analog/edit/main/apps/docs-app/docs/features/testing/vitest.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "docsSidebar",
+  "previous": {
+    "title": "Running Tests",
+    "permalink": "/docs/features/testing/overview"
+  },
+  "next": {
+    "title": "Updating to the latest version",
+    "permalink": "/docs/features/updating/overview"
+  }
+}
