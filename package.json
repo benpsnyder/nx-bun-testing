@@ -13,11 +13,11 @@
 		"repo:biome:format": "biome format --write {apps,libs,packages}",
 		"repo:biome:lint": "biome check --apply {apps,libs}",
 		"repo:ox:lint": "oxlint --deny-warnings",
-		"build:large-ts-repo": "bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12",
-		"build:large-ts-repo:no-cache": "bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --skip-nx-cache",
-		"build:spartan": "bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12",
-		"build:spartan:no-cache": "bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache",
-		"test:docker": "docker build --target nx-bun-testing --file Dockerfile.packages --progress=plain -t nx-bun-testing:latest ."
+		"install:with-yarn": "bunx rimraf bun.lockb && bun install --frozen-lockfile --yarn",
+		"install:with-lockb": "bunx rimraf yarn.lock && bun install --frozen-lockfile",
+		"build:docker:buntime": "docker build --target nx-bun-testing --file Dockerfile.buntime -t nx-bun-testing:latest .",
+		"build:docker:buntime-debug": "docker build --target nx-bun-testing --file Dockerfile.buntime-debug --progress=plain -t nx-bun-testing:latest .",
+		"build:docker:bun-on-node": "docker build --target nx-bun-testing --file Dockerfile.bun-on-node -t nx-bun-testing:latest ."
 	},
 	"dependencies": {
 		"@analogjs/content": "1.3.1",
@@ -186,11 +186,11 @@
 		"yargs-parser": "^21.1.1"
 	},
 	"engines": {
-		"bun": ">= 1.1.9",
+		"bun": ">= 1.1.10",
 		"node": "22.x",
-		"npm": "please-use-pnpm",
-		"pnpm": ">=8",
-		"yarn": "please-use-pnpm"
+		"npm": "please-use-bun",
+		"pnpm": "please-use-bun",
+		"yarn": "please-use-bun"
 	},
 	"engineStrict": true
 }

@@ -17,3 +17,7 @@ bin
 Dockerfile*
 docker-compose*
 .dockerignore
+
+# don't copy these in from the filesystem either
+bun.lockb
+yarn.lock
