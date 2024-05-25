@@ -1,0 +1,75 @@
+##
+## we could use `bun --bun` with the bun-on-node image, but let's use the bun image as our baseline for a clean separation
+
+FROM oven/bun:1 as base
+WORKDIR /usr/src/app
+ENV NX_VERBOSE_LOGGING=true
+
+####################################################################################################
+####################################################################################################
+
+FROM base AS install-dev--with-lockb
+COPY . .
+RUN bun install --ignore-scripts
+
+FROM base AS install-prod--with-lockb
+COPY . .
+RUN bun install --frozen-lockfile --production --ignore-scripts
+
+###
+
+FROM base AS install-dev--with-yarn
+COPY . .
+RUN bun install --frozen-lockfile --ignore-scripts --yarn
+
+FROM base AS install-prod--with-yarn
+COPY . .
+RUN bun install --frozen-lockfile --production --ignore-scripts --yarn
+
+####################################################################################################
+####################################################################################################
+
+FROM install-dev--with-lockb AS build--with-lockb--no-cache
+ENV NX_DAEMON=true
+ENV NX_SKIP_NX_CACHE=true
+RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --skip-nx-cache
+RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache
+
+
+FROM install-dev--with-lockb AS build--with-lockb--cache
+ENV NX_DAEMON=true
+ENV NX_SKIP_NX_CACHE=false
+RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12
+RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12
+
+
+FROM install-dev--with-yarn AS build--with-yarn--no-cache
+ENV NX_DAEMON=true
+ENV NX_SKIP_NX_CACHE=true
+RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12 --skip-nx-cache
+RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12 --skip-nx-cache
+
+FROM install-dev--with-yarn AS build--with-yarn--cache
+ENV NX_DAEMON=true
+ENV NX_SKIP_NX_CACHE=false
+RUN bunx nx run-many --target=build --projects=tag:stack:large-ts-repo --configuration=production --parallel=12
+RUN bunx nx run-many --target=build --projects=tag:stack:spartan --configuration=production --parallel=12
+
+
+# [optional] tests & build
+# ENV NODE_ENV=production
+# RUN bun test
+#
+
+####################################################################################################
+####################################################################################################
+
+FROM base AS nx-bun-testing
+#
+COPY --from=build--with-lockb--cache /usr/src/app/dist ./dist/bun-lockb-cache
+COPY --from=build--with-yarn--cache /usr/src/app/dist ./dist/bun-yarn-cache
+COPY --from=build--with-lockb--no-cache /usr/src/app/dist ./dist/bun-lockb-no-cache
+COPY --from=build--with-yarn--no-cache /usr/src/app/dist ./dist/bun-yarn-no-cache
+
+# perform any final tests here
+# ...
